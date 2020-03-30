@@ -1,0 +1,107 @@
+.isImage > img{
+    width: 20px;
+}
+
+.isAnimation1{
+    animation: click1 600ms alternate;
+}
+@keyframes click1 {
+    0% {
+        transform: translateY(-80px);
+    }
+    50% {
+        transform: translateY(-30px);
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(-20px);
+        margin-top: 75px;
+    }
+}
+
+.isAnimation2{
+    animation: click2 600ms alternate;
+}
+@keyframes click2 {
+    0% {
+        transform: translateY(-80px);
+    }
+    50% {
+        transform: translateY(-30px);
+        transform: translateX(-84px);
+    }
+    100%{
+        transform: translateX(-84px);
+        margin-top: 75px;
+    }
+}
+
+.isAnimation3{
+    animation: click3 600ms alternate;
+}
+@keyframes click3 {
+    0% {
+        transform: translateY(-80px);
+    }
+    50% {
+        transform: translateY(-30px);
+        transform: translateX(-130px);
+    }
+    100%{
+        transform: translateX(-130px);
+        margin-top: 75px;
+    }
+}
+
+.isAnimation4{
+    animation: click4 600ms alternate;
+}
+@keyframes click4 {
+    0% {
+        transform: translateY(-80px);
+    }
+    50% {
+        transform: translateY(-30px);
+        transform: translateX(-185px);
+    }
+    100%{
+        transform: translateX(-185px);
+        margin-top: 75px;
+    }
+}
+
+.isAnimation5{
+    animation: click5 600ms alternate;
+}
+@keyframes click5 {
+    0% {
+        transform: translateY(-80px);
+    }
+    50% {
+        transform: translateY(-30px);
+        transform: translateX(-240px);
+    }
+    100%{
+        transform: translateX(-240px);
+        margin-top: 75px;
+    }
+}
+
+.isAnimation6{
+    animation: click6 600ms alternate;
+}
+@keyframes click6 {
+    0% {
+        transform: translateY(-80px);
+    }
+    50% {
+        transform: translateY(-30px);
+        transform: translateX(-285px);
+    }
+    100%{
+        transform: translateX(-285px);
+        margin-top: 75px;
+        width: 35px;
+    }
+}
+
